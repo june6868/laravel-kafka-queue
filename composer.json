@@ -1,0 +1,21 @@
+{
+    "name": "june/laravel-kafka-queue",
+    "description": "kafka package for laravel queue",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JuneN",
+            "email": "niandcy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "June\\LaravelKafkaQueue\\": "src/"
+        }
+    }
+
+}
